@@ -22,10 +22,10 @@ import (
     "math/big"
     "testing"
 
-    "github.com/ing-bank/zkrp/crypto/bn256"
-    . "github.com/ing-bank/zkrp/util"
-    "github.com/ing-bank/zkrp/util/bn"
-    "github.com/ing-bank/zkrp/util/intconversion"
+    "zkrp/crypto/bn256"
+    . "zkrp/util"
+    "zkrp/util/bn"
+    "zkrp/util/intconversion"
 )
 
 /*

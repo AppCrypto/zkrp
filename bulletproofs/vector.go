@@ -21,8 +21,8 @@ import (
     "errors"
     "math/big"
 
-    "github.com/ing-bank/zkrp/crypto/p256"
-    "github.com/ing-bank/zkrp/util/bn"
+    "zkrp/crypto/p256"
+    "zkrp/util/bn"
 )
 
 /*

@@ -1,4 +1,4 @@
-module github.com/0xdecaf/zkrp
+module zkrp
 
 go 1.13
 

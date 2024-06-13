@@ -21,10 +21,10 @@ import (
     "crypto/sha256"
     "math/big"
 
-    "github.com/ing-bank/zkrp/crypto/bn256"
-    "github.com/ing-bank/zkrp/crypto/p256"
-    "github.com/ing-bank/zkrp/util/bn"
-    "github.com/ing-bank/zkrp/util/byteconversion"
+    "zkrp/crypto/bn256"
+    "zkrp/crypto/p256"
+    "zkrp/util/bn"
+    "zkrp/util/byteconversion"
 )
 
 // Constants that are going to be used frequently, then we just need to compute them once.

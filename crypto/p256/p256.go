@@ -27,8 +27,8 @@ import (
     "math/big"
     "strconv"
 
-    "github.com/ing-bank/zkrp/util/bn"
-    "github.com/ing-bank/zkrp/util/byteconversion"
+    "zkrp/util/bn"
+    "zkrp/util/byteconversion"
 )
 
 var (

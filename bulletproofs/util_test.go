@@ -22,7 +22,7 @@ import (
     "math/big"
     "testing"
 
-    "github.com/ing-bank/zkrp/crypto/p256"
+    "zkrp/crypto/p256"
 )
 
 /*
@@ -96,7 +96,7 @@ func TestScalarProduct(t *testing.T) {
 
 func TestIsPowerOfTwo(t *testing.T) {
     power := int64(math.Pow(2, 16))
-    ok := IsPowerOfTwo(power) && !IsPowerOfTwo(power + 1)
+    ok := IsPowerOfTwo(power) && !IsPowerOfTwo(power+1)
     if !ok {
         t.Errorf("Assert failure: expected true, actual: %t", ok)
     }
